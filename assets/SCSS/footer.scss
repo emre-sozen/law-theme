@@ -1,0 +1,97 @@
+.logo-footer {
+    width: 400px;
+    height: 120px;
+    margin-top: 100px;
+}
+
+.location img{
+    width: 40px;
+    height: 40px;
+
+}
+
+
+.about-footer {
+    margin-top: 125px;
+
+    &__text {
+        font-size: 36px;
+        font-weight: 300;
+        font-family: 'Roboto Condensed', sans-serif;
+        letter-spacing: 3px;
+    }
+}
+
+
+.input-one {
+    width: 280px;
+    padding: 10px 10px;
+}
+
+.btn {
+    width: 100px;
+}
+
+.btn-social {
+    display: inline-block;
+    width: 7vh;
+    height: 7vh;
+    background-color: #f1f1f1;
+    margin: 10px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: #3498db;
+    overflow: hidden;
+    position: relative;
+}
+
+.btn-social i{
+    font-size: 26px;
+    line-height: 70px;
+    transition: 0.2s linear;
+}
+
+.btn-social:hover i {
+    transform: scale(1.3);
+    color: #f1f1f1;
+}
+
+.btn-social::before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #3498db;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+
+.btn-social:hover::before {
+    animation: aaa 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+
+@keyframes aaa {
+    0%{
+        left: -110%;
+        top: 90%;
+    }
+    50%{
+        left: 10%;
+        top: -30%;
+    }
+    100%{
+        top: -10%;
+        left: -10%;
+    }
+}
+
+@media only screen and (max-width: 702px) {
+    .social-media {
+        position: fixed;
+        left: 120px;
+        bottom: 0;
+    }
+}

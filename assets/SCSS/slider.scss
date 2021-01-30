@@ -1,0 +1,266 @@
+
+html, body {
+    overflow-x:hidden;
+  } 
+.martop {margin-top: 15px;}
+
+/*
+.blc-roboto {
+    font-size: 65px!important;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 15px;
+    text-shadow: 3px 3px white;
+}
+.blc-sm-roboto {
+    font-size: 25px!important;
+    color: #3f2e2e;
+    font-family: 'Roboto Mono', sans-serif;
+    text-shadow: 2px 2px white;
+}
+.font-fl {
+    color: #C6906F;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+.btn-outline-dark {
+    padding:0 0;
+    padding: 5px 10px;
+    font-weight: 500;
+} */
+
+.btn-about {
+  width: 10rem;
+  border: 2px solid white;
+  padding: 12px 23px;
+  background: #10011a;
+}
+.btn-about a{
+  color: white;
+  text-decoration: none;
+  letter-spacing: 0.2rem;
+}
+.btn-about:hover{
+  transition: all 0.6s ease-in-out;
+  background-color: white;
+  border: 2px solid black;
+}
+.btn-about:hover a{color:black;}
+
+
+body{margin: 0px; padding: 0px;  overflow-x: none;
+
+}
+
+.carousel-inner .carousel-item img{
+    height: 100vh;
+}
+
+
+// SLİDER TEXT AREA -START
+.slider-texts {
+    top: 30vh;
+}
+// SLİDER TEXT AREA -FINISH
+.success-container {
+    &__experience{
+        &__img img{
+            width: 75px;
+            height: 75px;
+        }
+    }  
+}
+
+.hover-eff {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    box-shadow: 5px 10px 8px #e6e6e6;
+}
+
+
+
+@media only screen and (max-width: 702px) {
+    .carousel-inner {
+        display: block;
+    }
+
+    .carousel-item img {
+        height: 50vh !important;
+    }
+    .carousel-control-next,
+    .carousel-control-prev {
+        display: none;
+    }
+    .text-content {
+        top: -140px;
+    }
+
+
+    .carousel-inner .carousel-item img {
+        height: 50vh;
+    }
+    
+    .about-img img {
+        width: 90vw;
+        height: 35vh;
+        margin-top: 30px;
+    }
+    .font-f-e {
+        font-size: 29px!important;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 702px) {
+
+    .slider-container {
+        position: relative;
+    }
+
+    .resp-space {
+        margin-top: 25px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .text-none {
+        display: none;
+    }
+    .pop-left {
+        width: 70%;
+        margin-right: 60px;
+        margin-bottom: 30px;
+    }
+}
+
+.cizik {
+    height: 3px;
+    width: 100%;
+    background-color: #2f0b46;
+}
+
+
+.law-personel img{
+    width: 200px;
+    height: 300px;
+}
+
+
+button.owl-next {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0px;
+    top: 140px;
+    
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0px;
+    top: 140px;
+}
+
+.item {
+    overflow: hidden;
+}
+.item img {
+    max-width: 100%;
+    max-height: 100%;
+    transition: 0.75s;
+}
+.item:hover img{
+    transform: scale(1.1);
+}
+
+.carousel-item img {
+    height: 100vh;
+}
+
+.work-area img{
+    width: 20%;
+    height: 20%;
+}
+
+.shadow-index {
+    z-index: 1563648;
+}
+
+
+.devamini {
+    color: rgb(255, 242, 242);
+    font-weight: bold;
+    padding: 13px;
+    border: none;
+    //border-radius: 15px;
+    background-color: #293133;
+}
+.devamini:hover {
+    transition: 0.3s ease-in-out;
+    color: rgb(94, 94, 94);
+    background-color: rgb(214, 214, 214);
+}
+
+.about-text {
+    line-height: 27px;
+}
+
+.line-cizgi {
+    height: 5px;
+    width: 70px;
+    background-color: #2f0b46;
+}
+
+.uzm-alan li{
+    list-style-type: none;
+}
+
+.font-f-e {
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.color-byv {
+    background-color: #b38567;
+    color: white;
+}
+.color-yv {
+    color: #C6906F;
+}
+.color-w {
+    color: white;
+}
+
+
+.hover-card:hover {
+    .fa-caret-right {
+    
+        font-size: 20px;
+        animation: change 2s infinite;
+      }
+      
+      @keyframes change {
+        0%, 100%{
+          transform: translate(0, 0);
+        }
+        
+        20%{
+          transform: translate(40px, 0);
+        }
+       
+      }
+}
+
+.color-black {
+    background-color: rgb(0, 0, 0);
+}
+
+
+.haber {
+    width: 35vh;
+}
+
+  

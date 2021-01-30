@@ -1,0 +1,76 @@
+.navbar {
+  background-color: white; }
+
+.navbar-nav .nav-item .nav-link {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 3px; }
+
+.nav-item:hover {
+  transition: 0.3s ease-in;
+  background-color: #adadad; }
+
+.navbar-nav .nav-item .nav-link {
+  padding: 25px 0;
+  margin: 0 4px;
+  color: white; }
+
+.navbar-brand img {
+  width: 340px;
+  height: 55px; }
+
+@media only screen and (max-width: 702px) {
+  .nt-show {
+    display: none; }
+
+  .fa-bars {
+    display: none; }
+
+  #navbarSupportedContent {
+    background-color: #a3a3a3; }
+
+  #navbarSupportedContent ul {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+  #navbarSupportedContent ul li {
+    margin-left: 10px; }
+
+  #navbarSupportedContent ul li:hover {
+    background-color: #e0e0e0; }
+
+  #navbarSupportedContent ul li a {
+    padding: 15px 15vh;
+    color: white; }
+
+  .navbar-brand img {
+    width: 45vw;
+    height: 5vh; }
+
+  .navbar-toggler {
+    margin-right: 20px; }
+
+  .pop-right {
+    width: 70%;
+    margin-right: 80px;
+    margin-bottom: 50px; }
+
+  .carousel-item img {
+    position: relative;
+    height: 100px !important; }
+
+  .carousel-caption {
+    margin-top: -20vh; }
+    .carousel-caption .blc-roboto {
+      font-size: 25px !important;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px white; }
+    .carousel-caption .blc-sm-roboto {
+      font-size: 18px !important;
+      font-weight: 600;
+      text-shadow: 2px 2px white; } }
+
+/*# sourceMappingURL=navbar.css.map */
